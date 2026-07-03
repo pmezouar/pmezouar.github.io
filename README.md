@@ -1,4 +1,4 @@
-# 👩‍💻 Priscilla MEZOUAR — Portfolio DevSecOps / Fullstack
+# 👩‍💻 Priscilla MEZOUAR
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![DevSecOps](https://img.shields.io/badge/Focus-DevSecOps-blue)
