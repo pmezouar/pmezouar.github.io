@@ -1,13 +1,4 @@
-# 👩‍💻 Priscilla MEZOUAR
 
-![Status](https://img.shields.io/badge/Status-Active-success)
-![DevSecOps](https://img.shields.io/badge/Focus-DevSecOps-blue)
-![Frontend](https://img.shields.io/badge/Frontend-JavaScript-yellow)
-![Backend](https://img.shields.io/badge/Backend-Python-green)
-![Infrastructure](https://img.shields.io/badge/Systems-Linux%20%2F%20Réseaux-purple)
-
-🔗 **Live Demo** : https://pmezouar.github.io/  
-📱 Interface responsive (mobile & desktop)
 
 ---
 
@@ -16,10 +7,10 @@
 Ce portfolio est une vitrine technique de mon parcours en informatique, combinant :
 
 - développement web (frontend & backend)
-- systèmes et réseaux
-- cybersécurité
+<!-- - systèmes et réseaux
+- cybersécurité -->
 
-Il reflète mon évolution vers un profil **DevSecOps**, capable de comprendre à la fois :
+Il reflète mon évolution vers un profil **Developpeuse Web Fullstack**, capable de comprendre à la fois :
 - les applications
 - les infrastructures
 - et leur sécurisation
@@ -41,8 +32,8 @@ Ce portfolio a été conçu avec une logique orientée :
 
 - architecture claire et maintenable
 - expérience utilisateur simple et efficace
-- structure évolutive (ajout de projets DevOps / sécurité)
-- approche "produit + infrastructure"
+<!-- - structure évolutive (ajout de projets) -->
+<!-- - approche "produit + infrastructure" -->
 
 ---
 
@@ -51,20 +42,8 @@ Ce portfolio a été conçu avec une logique orientée :
 ### Développement
 - HTML5 / CSS3 / SCSS
 - JavaScript (ES6+)
-- Python (Flask)
-- React (en apprentissage / projets futurs)
 
-### Systèmes & DevOps
-- Linux (Ubuntu / Debian)
-- Windows Server (Active Directory)
-- Réseaux (TCP/IP, DNS, DHCP)
-- Docker
-- Git / GitHub
-
-### Cybersécurité
-- Durcissement Linux (SSH, UFW, Fail2Ban)
-- Bases de sécurité systèmes
-- Concepts DevSecOps
+---
 
 ## 📸 Aperçu
 
@@ -120,3 +99,83 @@ Je m’oriente vers des postes :
 ---
 
 ⭐ Merci de visiter mon portfolio
+
+
+# 👩‍💻 Priscilla MEZOUAR
+
+![DevWebFullstack](https://img.shields.io/badge/Focus-DevWebFullstack-red)
+![HTML](https://img.shields.io/badge/Language-HTML-blue)
+![Frontend](https://img.shields.io/badge/Frontend-React-yellow)
+![Responsive](https://img.shields.io/badge/Design-Mobile--First-purple)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
+
+🔗 **Live Demo** : https://pmezouar.github.io/  
+📱 Compatible mobile et desktop
+
+
+---
+
+## ✨ À propos du projet
+
+**pmezouar** est un site vitrine conçue pour être mon CV virtuel. Il présente mes formations, certifications et compétences techniques.
+
+Le projet vise également à présenter les différents projets que j'ai réalisé à travers mon portfolio. 
+
+Ce projet a été imaginé dans une logique de **portfolio** moderne et dynamique.
+
+---
+
+## 🎯 Objectifs
+
+* Me présenter 
+* Présenter mes formations et certifications
+* Présenter mes compétences techniques
+* Présenter mes projets réalisés
+
+---
+
+## 🧠 Approche technique
+
+Ce projet a été développé avec une attention particulière portée à :
+
+* 🔎 La navigation et la recherche d’informations
+* 📱 L’accessibilité et le responsive design
+* 📈 L'évolution et la maintenabilité
+
+---
+
+## 🛠️ Stack technique
+
+### Frontend
+
+* HTML5
+* CSS3
+* React
+
+---
+
+### Outils
+
+* Git / GitHub
+* VS Code
+
+---
+
+## 📸 Aperçu
+
+![Screenshot](./assets/images/screenshot.png)
+
+---
+
+## 💼 Auteur
+
+Développé par **Priscilla MEZOUAR**
+
+🌐 Portfolio : https://pmezouar.github.io
+💼 LinkedIn : https://www.linkedin.com/in/pmezouar
+📧 Email : [mezouar.priscilla@gmail.com](mailto:mezouar.priscilla@gmail.com)
+
+---
+
+⭐ Ce projet a été développé dans une démarche de présentation de mes compétences. N’hésitez pas à explorer le projet et à me faire des retours !
