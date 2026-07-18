@@ -15,7 +15,7 @@
 
 ## ✨ À propos du projet
 
-**pmezouar** est un site vitrine conçue pour être mon CV virtuel. Il présente mes formations, certifications et compétences techniques.
+**Pmezouar** est un site vitrine conçue pour être mon CV virtuel. Il présente mes formations, certifications, compétences techniques et projets réalisés. 
 
 Le projet vise également à présenter les différents projets que j'ai réalisé à travers mon portfolio. 
 
