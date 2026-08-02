@@ -1,0 +1,158 @@
+#experiences .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  #experiences .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+#experiences .container h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#experiences .container h2 i {
+  font-size: 22px;
+}
+
+#experiences .container div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#experiences .container .trainings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border: 1px solid var(--primary);
+  box-shadow:
+    0 0 5px var(--primary),
+    inset 0 0 10px var(--black);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#experiences .container .trainings-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#experiences .container .trainings-list ul .training-item {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#experiences .container .trainings-list ul h3 {
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+#experiences .container .trainings-list ul h3:before {
+  content: "•";
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+
+#experiences .container .trainings-list ul span,
+#experiences .container .trainings-list ul p {
+  margin-left: 20px;
+}
+
+#experiences .container .trainings-list ul p {
+  font-size: 18px;
+}
+
+#experiences .container .jobs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#experiences .container .jobs-list .jobs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  list-style: none;
+}
+
+#experiences .container .jobs-list .jobs-container .job-item {
+  border-left: 1px solid var(--primary);
+  padding: 0 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#experiences .container .jobs-list .jobs-container .job-item::before {
+  content: "•";
+  font-size: 45px;
+  position: absolute;
+  top: -35px;
+  left: -1.2%;
+  color: var(--primary);
+}
+
+#experiences .container .jobs-list .jobs-container .job-item h3 {
+  margin-top: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  #experiences .container .jobs-list .jobs-container .job-item h3 {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+}
+
+#experiences .container .jobs-list .jobs-container .job-item span {
+  font-size: 14px;
+  list-style: none;
+  padding: 5px 15px;
+  background: var(--overlay1);
+  border-radius: 50px;
+  color: var(--white);
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 5px var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+
+#experiences .container .jobs-list .jobs-container .job-item .job-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+#experiences .container .jobs-list .jobs-container .job-item li {
+  font-size: 14px;
+  list-style: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: var(--white);
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 5px var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}

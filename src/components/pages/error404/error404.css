@@ -1,0 +1,12 @@
+#error404 {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#error404 h1 {
+  font-size: 30px;
+}
