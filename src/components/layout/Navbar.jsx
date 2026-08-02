@@ -30,13 +30,13 @@ function Navbar() {
           Accueil
         </NavLink>
 
-        {/* <NavLink
+        <NavLink
           to="/portfolio"
           onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? "active" : "")}
         >
           Portfolio
-        </NavLink> */}
+        </NavLink>
 
         <NavLink
           to="/experiences"

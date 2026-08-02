@@ -1,6 +1,6 @@
 import ContactHome from "./contact/ContactHome";
 import Hero from "./hero/Hero";
-// import Projects from "./projects/Projects";
+import Projects from "./projects/Projects";
 import Quote from "./quote/Quote";
 import Stacks from "./stacks/Stacks";
 import "./home.css";
@@ -11,7 +11,7 @@ function Home() {
       <Hero />
       <Stacks />
       <Quote />
-      {/* <Projects /> */}
+      <Projects />
       <ContactHome />
     </main>
   );
