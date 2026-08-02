@@ -9,8 +9,6 @@
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 
-![Last Commit](https://img.shields.io/github/last-commit/pmezouar/herbierdeprovence?style=for-the-badge)
-
 ![Responsive](https://img.shields.io/badge/Design-Responsive-purple?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-Production-success?style=for-the-badge)
 
 
