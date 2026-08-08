@@ -10,17 +10,10 @@ function About() {
         Priscilla <span>MEZOUAR</span>
       </h1>
       <h2>
-        Full Stack Software Engineer & CEO OlysWeb | Développement de solutions
-        web sur mesure
+        Développeuse Web Full Stack & CEO OlysWeb
       </h2>
       <p>
-        Bonjour, je m'appelle Priscilla ! Je suis passionnée par le
-        développement d'applications web modernes, performantes et évolutives,
-        centrées sur l'utilisateur.
-        <br /> <br />
-        Curieuse, rigoureuse et autonome, j'accorde une grande importance à la
-        qualité du code, à l'expérience utilisateur et à l'apprentissage
-        continu, afin de toujours mieux vous servir.
+        Bonjour, je m'appelle Priscilla ! Je conçois des applications web complètes, du front-end au back-end, avec une attention particulière portée à l'architecture, l'expérience utilisateur, la qualité du code et la maintenabilité.
       </p>
       <div>
         {/* <Button link_url="/portfolio" class_name="btn btn-primary" title="Découvrir mon portfolio" icon="bi bi-arrow-right" />

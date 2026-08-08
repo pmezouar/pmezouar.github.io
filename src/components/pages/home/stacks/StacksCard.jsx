@@ -1,19 +1,6 @@
 const stacks = [
   {
     id: 1,
-    icon: "i bi bi-gear-wide-connected",
-    title: "Backend",
-    description:
-      "Développement d'applications web robustes, d'API sécurisées et de logique métier avec Python et ses frameworks.",
-    items: [
-      { id: 1, name: "Python" },
-      { id: 2, name: "Django" },
-      { id: 3, name: "Django REST" },
-      { id: 4, name: "Flask" },
-    ],
-  },
-  {
-    id: 2,
     icon: "i bi bi-code-slash",
     title: "Frontend",
     description:
@@ -25,6 +12,19 @@ const stacks = [
       { id: 4, name: "HTML5" },
       { id: 5, name: "CSS3" },
       { id: 6, name: "SASS" },
+    ],
+  },
+  {
+    id: 2,
+    icon: "i bi bi-gear-wide-connected",
+    title: "Backend",
+    description:
+      "Développement d'applications web robustes, d'API sécurisées et de logique métier avec Python et ses frameworks.",
+    items: [
+      { id: 1, name: "Python" },
+      { id: 2, name: "Django" },
+      { id: 3, name: "Django REST" },
+      { id: 4, name: "Flask" },
     ],
   },
   {
@@ -42,7 +42,7 @@ const stacks = [
   {
     id: 4,
     icon: "i bi bi-link-45deg",
-    title: "API & Web",
+    title: "API & Authentification",
     description:
       "Conception d'API REST, échanges de données, authentification et gestion sécurisée des accès entre applications.",
     items: [
@@ -55,18 +55,6 @@ const stacks = [
   },
   {
     id: 5,
-    icon: "i bi bi-gear",
-    title: "DevOps & Déploiement",
-    description:
-      "Conteneurisation, intégration continue et déploiement automatisé pour faciliter la mise en production des applications.",
-    items: [
-      { id: 1, name: "Docker" },
-      { id: 2, name: "Gunicorn" },
-      { id: 3, name: "GitHub Actions" },
-    ],
-  },
-  {
-    id: 6,
     icon: "i bi bi-flask",
     title: "Tests & Qualité",
     description:
@@ -75,6 +63,18 @@ const stacks = [
       { id: 1, name: "Vitest" },
       { id: 2, name: "Selenium" },
       { id: 3, name: "Prettier" },
+    ],
+  },
+  {
+    id: 6,
+    icon: "i bi bi-gear",
+    title: "Déploiement",
+    description:
+      "Conteneurisation, intégration continue et déploiement automatisé pour faciliter la mise en production des applications.",
+    items: [
+      { id: 1, name: "Docker" },
+      { id: 2, name: "Gunicorn" },
+      { id: 3, name: "GitHub Actions" },
     ],
   },
   {
@@ -94,14 +94,6 @@ const stacks = [
   },
   {
     id: 8,
-    icon: "i bi bi-globe-americas",
-    title: "Réseaux",
-    description:
-      "Connaissances en réseaux informatiques, protocoles et infrastructures Cisco pour comprendre les architectures modernes.",
-    items: [{ id: 1, name: "Cisco" }],
-  },
-  {
-    id: 9,
     icon: "i bi bi-globe",
     title: "CMS",
     description:
