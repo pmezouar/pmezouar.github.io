@@ -1,0 +1,104 @@
+.contact .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .contact .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact .container form {
+  box-shadow: 0 0 5px var(--primary);
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.contact .container form .bi-envelope {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  color: var(--overlay1);
+  font-size: 80px;
+}
+
+.contact .container form input,
+.contact .container form textarea {
+  z-index: 1;
+  background: none;
+  border: 1px solid var(--border);
+  padding: 5px 10px;
+  resize: none;
+  outline: none;
+}
+
+.contact .container form input {
+  border-radius: 50px;
+}
+
+.contact .container form textarea {
+  border-radius: 10px;
+}
+.contact .container form .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact .container .informations {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.contact .container .informations .item {
+  box-shadow: 0 0 5px var(--primary);
+  border-radius: 10px;
+  list-style: none;
+  padding: 20px;
+}
+@media screen and (max-width: 992px) {
+  .contact .container .informations .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.contact .container .informations .item:hover {
+  box-shadow: 0 0 10px var(--primary);
+  transform: scale(1.02);
+}
+
+.contact .container .informations .item div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.contact .container .informations .item div i {
+  font-size: 22px;
+  color: var(--primary);
+}
+
+.contact .container .informations .item p {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .contact .container .informations .item p {
+    margin-left: 0;
+  }
+}

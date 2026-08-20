@@ -1,0 +1,81 @@
+:root {
+  /* Colors */
+  --bg: #000;
+  --bgGradient: radial-gradient(#333333, #000000);
+  --black: #000;
+  --bodyColor: #f1f1f1;
+  --border: #333;
+  --headingsColor: #fff;
+  --overlay1: rgba(83, 120, 149, 0.2);
+  --overlay2: rgba(255, 255, 255, 0.2);
+  /* --primary: #0cc0df; */
+  --primary: #537895;
+  --shadow: #00000040;
+  --white: #fff;
+
+  /* Fonts */
+  --headingsFont: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --bodyFont: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--bodyFont);
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--bodyColor);
+  cursor: default;
+  transition: all 0.2s ease;
+  user-select: none;
+  line-height: 30px;
+}
+
+main {
+  background: var(--bgGradient);
+}
+
+section {
+  padding: 100px 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headingsFont);
+  color: var(--headingsColor);
+  font-weight: 600;
+}
+
+h1 {
+  * {
+    font-weight: 600;
+  }
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+
+  * {
+    cursor: pointer;
+  }
+}

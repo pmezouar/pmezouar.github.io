@@ -1,0 +1,13 @@
+#legal-mentions {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#legal-mentions h1 {
+  font-size: 30px;
+}
+
+#legal-mentions h2 {
+  margin-bottom: 20px;
+}

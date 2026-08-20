@@ -1,0 +1,72 @@
+#quote {
+  background: var(--bg);
+}
+
+#quote .container {
+  background: var(--bgGradient);
+  padding: 50px;
+  box-shadow:
+    0 0 5px var(--primary),
+    inset 0 0 10px var(--black);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+#quote .container i {
+  color: var(--primary);
+  font-size: 30px;
+  border: 1px solid var(--primary);
+  padding: 20px 22px;
+  box-shadow: 0 0 10px var(--primary);
+  border-radius: 50%;
+}
+
+#quote .container p {
+  font-size: 25px;
+  font-style: italic;
+}
+
+#quote .container span {
+  position: relative;
+}
+#quote .container span::before,
+#quote .container span::after {
+  content: "";
+  border-top: 1px solid var(--primary);
+  height: 2px;
+  width: 100%;
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  #quote .container span::before,
+  #quote .container span::after {
+    width: 20%;
+  }
+}
+
+#quote .container span::before {
+  top: 50%;
+  left: -110%;
+}
+
+@media screen and (max-width: 768px) {
+  #quote .container span::before {
+    left: -50px;
+  }
+}
+
+#quote .container span::after {
+  top: 50%;
+  left: 110%;
+}
+
+@media screen and (max-width: 768px) {
+  #quote .container span::after {
+    left: 165px;
+  }
+}

@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 0 10px var(--primary);
+  background: var(--bg);
+  z-index: 1;
+  position: relative;
+  border-top: 1px solid var(--primary);
+}
+
+@media screen and (max-width: 576px) {
+  footer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+footer * {
+  color: var(--white);
+  font-size: 12px;
+}
+
+footer div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer div a:hover {
+  filter: drop-shadow(0 0 10px var(--primary));
+}
+
+footer div i {
+  font-size: 25px;
+}
