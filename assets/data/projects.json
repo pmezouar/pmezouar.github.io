@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image_name": "herbierdeprovence",
+        "title": "Herbier de Provence",
+        "description": "Un site vitrine moderne pour un grossiste en herbes aromatiques sauvages. ",
+        "github_url": "https://github.com/pmezouar/herbierdeprovence",
+        "demo_url": "https://herbier-provence.com",
+        "technologies": ["HTML5", "CSS3", "JavaScript"]
+    },
+    {
+        "id": 2,
+        "image_name": "beautystar",
+        "title": "Beauty Star",
+        "description": "Un site vitrine moderne pour un institut de beauté à Tarascon. ",
+        "github_url": "https://github.com/pmezouar/beautystar",
+        "demo_url": "https://beauty-star.fr",
+        "technologies": ["HTML5", "CSS3", "JavaScript"]
+    }
+]

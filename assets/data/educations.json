@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "category": "formation",
+        "title": "TP Technicien Supérieur Systèmes, Réseaux & Cybersécurité",
+        "school": "STUDI",
+        "date": "2026 / 2027 (En cours)"
+    },
+    {
+        "id": 2,
+        "category": "formation",
+        "title": "Cisco DevNet Associate",
+        "school": "Cisco Networking Academy (NetAcad)",
+        "date": "2026 (En cours)"
+    },
+    {
+        "id": 3,
+        "category": "formation",
+        "title": "CS50W - CS50’s Web Programming with Python and JavaScript",
+        "school": "Harvard Online",
+        "date": "2026 (En cours)"
+    },
+    {
+        "id": 4,
+        "category": "certificat",
+        "title": "CS50X - CS50’s Introduction to Computer Science",
+        "school": "Harvard Online",
+        "date": "2025"
+    },
+    {
+        "id": 5,
+        "category": "formation",
+        "title": "CS50X - CS50’s Introduction to Computer Science",
+        "school": "Harvard Online",
+        "date": "2025"
+    },
+    {
+        "id": 6,
+        "category": "formation",
+        "title": "Développement Frontend",
+        "school": "FromScratch (Podia)",
+        "date": "2019"
+    },
+    {
+        "id": 7,
+        "category": "formation",
+        "title": "WordPress & WooCommerce",
+        "school": "Udemy",
+        "date": "2019"
+    }
+]

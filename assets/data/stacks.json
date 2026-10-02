@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "icon": "frontend",
+        "title": "Frontend",
+        "description": "Conception d'interfaces web modernes, accessibles et adaptées aux besoins des utilisateurs.",
+        "stacks": ["React", "TypeScript", "JavaScript", "HTML5", "CSS5", "SCSS"]
+    },
+    {
+        "id": 2,
+        "icon": "backend",
+        "title": "Backend",
+        "description": "Développement de la logique métier, d'applications web et d'API avec Python et ses frameworks.",
+        "stacks": ["Python", "Flask", "Django", "Django REST Framework"]
+    },
+    {
+        "id": 3,
+        "icon": "base-de-donnees",
+        "title": "Base de données",
+        "description": "Conception et utilisation de bases de données relationnelles pour stocker et exploiter les données des applications.",
+        "stacks": ["PostgreSQL", "SQLite", "MySQL"]
+    },
+    {
+        "id": 4,
+        "icon": "api",
+        "title": "API & Authentification",
+        "description": "Conception et intégration d'API REST, échanges de données et gestion de l'authentification.",
+        "stacks": ["REST API", "JSON"]
+    },
+    {
+        "id": 5,
+        "icon": "test",
+        "title": "Tests & Qualité",
+        "description": "Tests, validation des fonctionnalités et outils favorisant un code propre, cohérent et maintenable.",
+        "stacks": ["Vitest", "Selenium", "Prettier"]
+    }, 
+    {
+        "id": 6,
+        "icon": "deploiement",
+        "title": "Développement & Déploiement",
+        "description": "Outils permettant de préparer, conteneuriser et automatiser la mise en production des applications.",
+        "stacks": ["Docker", "Gunicorn", "GitHUb Actions"]
+    },  
+    {
+        "id": 7,
+        "icon": "outils",
+        "title": "Outils",
+        "description": "Outils utilisés au quotidien pour développer, versionner, tester et organiser les projets.",
+        "stacks": ["Git / GitHub", "VS Code", "Trello", "Notion"]
+    }
+,  
+    {
+        "id": 8,
+        "icon": "cms",
+        "title": "CMS",
+        "description": "Création, personnalisation et maintenance de site web professionnels avec WordPress",
+        "stacks": ["WordPress", "WooCommerce"]
+    }
+]

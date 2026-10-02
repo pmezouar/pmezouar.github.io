@@ -1,0 +1,236 @@
+#about {
+  #hero {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+    @media screen and (max-width: 960px) {
+      flex-direction: column-reverse;
+    }
+
+    @media screen and (max-width: 720px) {
+      padding: 50px 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      align-items: start;
+
+      @media screen and (max-width: 960px) {
+        align-items: center;
+        justify-content: center;
+        text-align: center !important;
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 1px solid var(--primary);
+        border-radius: 50px;
+
+        img {
+          width: 12px;
+        }
+      }
+
+      h2 {
+        font-size: 25px;
+      }
+
+      p {
+        text-align: justify;
+
+        @media screen and (max-width: 960px) {
+          text-align: center;
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+      max-width: 293px;
+
+      @media screen and (max-width: 720px) {
+        max-width: 100px;
+      }
+    }
+  }
+
+  #competences-techniques {
+    background: var(--gradient);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @media screen and (max-width: 720px) {
+      padding: 50px 20px;
+    }
+
+    h2 {
+      color: var(--tertiary);
+    }
+
+    p {
+      color: var(--white);
+    }
+
+    #stack-list {
+      border-left: 2px solid var(--tertiary);
+      padding-left: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 50px;
+
+      @media screen and (max-width: 720px) {
+        padding-left: 20px;
+      }
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+
+        img {
+          width: 40px;
+          height: 40px;
+        }
+
+        h3 {
+          color: var(--tertiary);
+        }
+
+        ul {
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 20px;
+
+          li {
+            padding: 5px 15px;
+            color: var(--white);
+            border: 2px solid var(--tertiary);
+            border-radius: 50px;
+          }
+        }
+      }
+    }
+  }
+
+  #formations-et-certifications {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @media screen and (max-width: 720px) {
+      padding: 50px 20px;
+    }
+
+    #education-list {
+      border-left: 2px solid var(--tertiary);
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+
+      @media screen and (max-width: 720px) {
+        padding-left: 20px;
+      }
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .category {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          img {
+            width: 40px;
+            height: 40px;
+          }
+
+          span {
+            text-transform: uppercase;
+          }
+        }
+
+        h3 {
+          color: var(--tertiary);
+        }
+      }
+    }
+  }
+
+  #experiences-professionnelles {
+    background: var(--gradient);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @media screen and (max-width: 720px) {
+      padding: 50px 20px;
+    }
+
+    h2 {
+      color: var(--tertiary);
+    }
+
+    p {
+      color: var(--white);
+    }
+
+    #job-list {
+      border-left: 2px solid var(--tertiary);
+      padding-left: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 50px;
+
+      @media screen and (max-width: 720px) {
+        padding-left: 20px;
+      }
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+
+        .category {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          img {
+            width: 40px;
+            height: 40px;
+          }
+
+          span {
+            color: var(--white);
+            text-transform: uppercase;
+          }
+        }
+
+        h3 {
+          color: var(--tertiary);
+        }
+      }
+    }
+  }
+}

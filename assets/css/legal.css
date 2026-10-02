@@ -1,0 +1,10 @@
+#legal {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  @media screen and (max-width: 720px) {
+    padding: 50px 20px;
+  }
+}
